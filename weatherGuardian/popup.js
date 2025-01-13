@@ -8,8 +8,8 @@ document.getElementById("get-weather-btn").addEventListener("click", function ()
   });
   
   function getWeather(location) {
-    const apiKey = "a12e44a59f7d19ff9d18274f08ac0906"; // Replace with your actual API key
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=a12e44a59f7d19ff9d18274f08ac0906&units=metric`;
+    const apiKey = "xxx"; // Replace with your actual API key
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=xxx&units=metric`;
   
     fetch(apiUrl)
       .then((response) => {
